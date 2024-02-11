@@ -16,6 +16,7 @@ Welcome to my personal portfolio website! This website serves as a showcase of m
 3. Explore my skills, experiences, and services.
 4. Contact me through the provided email or social media links.
 5. **New!** Use the feedback form to provide valuable feedback about the website.
+6. To save the form data refer [Jamie Wilson](https://github.com/jamiewilson/form-to-google-sheets) to know more about how to use google sheets to save data from the web page forms.
 
 ## Feedback
 
