@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">                                                                                  
+<head>
+    <meta name="google-site-verification" content="QXq61sOnZGUP5nuhWSCk__9JBtbbBQ7AsjdFtyQbKaQ" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website - Aditya Pimpale</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/8dc066fc07.js" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+    <link rel="stylesheet" href="style-responsive.css">
+    
+</head>
+<body>
+   
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src = images/logo1.png class="logo">
+                <ul>
+                <li><a href="#header">Home</a></li>
+                <li> <a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>  
+                <li><a href="#contact">Contact</a></li>
+               <li><a style="color:#fff; text-decoration: none; 
+                text-align-last: left; font-size: 20px;" href="feedback.html">Feedback</a></li> 
+                </ul>
+            </nav>
+
+            <!-- header text -->
+            <div class="header-content">
+                <div class="about-col-1">
+                    <!-- <img src="images/user1.jpg" alt="Aditya's Portfolio Image" class="portfolio-image"> -->
+                </div>
+         <div class="about-col-2">
+            <h1 style=" font-size:xx-large;">Hello, I'm <span>Aditya Pimpale</span>,</h1>
+            <p style=" font-size:xx-large;">A passionate computer 
+                  science <br>engineering student with a flair for<br> creating innovative web & software solutions.</p>
+              <br>
+                  <p class="web-dev-enthusiast">| Web Development Enthusiast |</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- about -->
+    <div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/user.jpg">
+            </div>
+            <div class="about-col-2" >
+                <h1 class="sub-title"><span>A</span>bout Me</h1><br>
+                <p style="text-align:justify"style="text-align:right">
+                    I am a final-year Computer Engineering student at Savitribai Phule Pune University (SPPU), driven by a deep passion for technology and innovation. Throughout my academic journey, I have delved into diverse aspects of programming, web development, and software engineering. I actively seek opportunities for growth, taking on internships and real-world projects in Big Data, web development, and technical writing. My relentless drive and technical expertise equip me to make a significant impact in the field of computer engineering
+                </p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <h3><li><span style="color:#FF6700">Java</span> |
+                        <span>python</span> |
+                        <span style="color:#FF6700" >HTML</span> |
+                        <span>CSS</span> |
+                        <span style="color:#FF6700">JavaScript</span><br></li>
+                        <li><span>SASS</span> |
+                        <span style="color:#FF6700">Blender</span> |
+                        <span>MySQL</span> |
+                        <span style="color:#FF6700">MongoDB</span> |
+                        <span >Hadoop</span><br></li>
+                        </ul></h3>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li>React Native Developer<br><span>BlueCollarLog [Feb 2024 - April 24 ]</span></i>
+                        <li>Big Data Intern<br><span>Cyber Secured India [ Feb 23 - Mar 23 ]</span></li>
+                        <li>Project Intern<br><span>Awadh [ Jun 22 - Aug 22 ]</span></li>
+                        <li>Web Developer<br><span>Teachnook [ Apr 22 - May 22 ]</span></li>
+                        <li>Content Writer<br><span>Aashman Foundation, Punjab [ Feb 22 - Apr 22 ]</span></li>
+                        </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                   
+                        <ul>
+                            <li>COMPUTER ENGINEERING<br><span>Savitribai Phule Pune University</span></li>
+                            <li>12th SCIENCE (HSC)<br><span>S.B.Patil College of Science and Commerce, Ravet</span></li>
+                            <li>10th GRADE (SSC)<br><span>St.Ursula High School,Akurdi-35</span></li>
+                            </ul>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    </div>
+
+ <!-- services -->
+ <div id="services">
+    <div class="container">
+        <h1 class="sub-title"><span>My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-wand-sparkles"></i>
+                    <h2>Web Designing</h2>
+                    <p>Designing templates</p><br><br>
+                       <a href="#contact">Learn more</a> 
+                </div>
+                <div>
+                    <i class="fa-solid fa-hands-holding-circle"></i>
+                    <h2>Website Hosting</h2>
+                    <p>Hosting websites thorugh Github pages and cloud hosting
+                    </p>
+                       <a href="#contact">Learn more</a> 
+                </div>
+                <div>
+                    <i class="fa-solid fa-file-word"></i>
+                    <h2>Technical Writing</h2>
+                    <p>Documentation for projects, writing Technical articles, blogs </p>
+                       <a href="#contact">Learn more</a> 
+                </div>
+                <div>
+                    <i class="fa-solid fa-lightbulb"></i>
+                    <h2>Providing Projects</h2>
+                    <p>Providing Web Development & programming projects</p>
+                       <a href="#contact">Learn more</a> 
+                </div>
+            </div>
+    </div>
+ </div>
+ <br><br><br><br><br>
+ 
+ <!-- Contact -->
+ <div id="contact">
+     <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class = "sub-title">Contact Me</h1>
+                <p><i class="fa-sharp fa-solid fa-paper-plane fa-lg" style="color: #4CC417;"></i> pimpaleaditya2@gmail.com</p>
+                <p><i class="fa-solid fa-phone fa-lg" style="color: #4CC417;"></i> 8329091740</p><br><br>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/profile.php?id=100025292475880"><i class="fa-brands fa-facebook fa-lg"></i></a>
+                    <a href="https://www.linkedin.com/in/aditya-pimpale-40a09b214"><i class="fa-brands fa-linkedin fa-lg" ></i></a>
+                    <a href="https://twitter.com/AdityaPimpale8"><i class="fa-brands fa-twitter fa-lg" ></i></a>
+                    <a href="https://github.com/ADITYAPIMPALE11127"><i class="fa-brands fa-github fa-lg" ></i></a>
+                </div><br><br>
+                <!-- <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a> -->
+            </div>
+            <div class="contact-right">
+                <form method="post" action="https://script.google.com/macros/s/AKfycby4ZGAQIH_At6R-84tXLZn623Hg9WV2NXLMcoUIt5N7sgd9c0jI1NHR8_vl81au1CNMzQ/exec" id="contactForm">
+                    <input type="text" id="name" name="Name" placeholder="Your Name" required>
+                    <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    <textarea name = "Message" id="message"  rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+     </div>
+     <div class="copyright">
+        <p>Copyright Aditya <i class="fa-solid fa-heart" style="color: #4CC417;"></i> MyPortfolio <i class="fa-sharp fa-regular fa-copyright"></i> 2023-2024</p>
+     </div>
+ </div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("acitve-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+
+
+    </script>
+</body>
+</html>

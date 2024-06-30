@@ -1,0 +1,20 @@
+User-agent: *
+Disallow: /admin/      # Block any potential admin-related pages or directories.
+Disallow: /private/    # Block any private or sensitive content.
+Disallow: /cgi-bin/    # Block CGI scripts if you have any.
+Disallow: /temp/       # Block temporary files or directories.
+Disallow: /tmp/        # Block temporary files or directories.
+Disallow: /uploads/    # Block uploaded files.
+Disallow: /download/   # Block downloadable files if they are in a specific directory.
+Disallow: /feedback.html
+
+# Allow Googlebot-Image to crawl images
+User-agent: Googlebot-Image
+Disallow:
+
+# Allow Google AdSense bot to crawl pages
+User-agent: Mediapartners-Google
+Disallow:
+
+# Allow major search engine bots to access sitemaps
+Sitemap: https://www.yourwebsite.com/sitemap.xml
