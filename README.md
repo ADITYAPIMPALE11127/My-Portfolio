@@ -11,7 +11,7 @@ Welcome to my personal portfolio website! This website serves as a showcase of m
 
 ## How to Use
 
-1. Visit [Aditya Pimpale's Portfolio Website](aditya-pimpale-cse.netlify.app) in your web browser.
+1. Visit [Aditya Pimpale's Portfolio Website](https://aditya-pimpale-portfolio.wuaze.com/) in your web browser.
 2. Navigate through the various sections using the navigation bar.
 3. Explore my skills, experiences, and services.
 4. Contact me through the provided email or social media links.
